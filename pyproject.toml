@@ -1,17 +1,23 @@
-[project]
-name = "repl-nix-workspace"
+[tool.poetry]
+name = "eco-pollution-tracker"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.11"
-dependencies = [
-    "beautifulsoup4>=4.13.4",
-    "email-validator>=2.2.0",
-    "flask-cors>=5.0.1",
-    "flask>=3.1.0",
-    "flask-sqlalchemy>=3.1.1",
-    "gunicorn>=23.0.0",
-    "pandas>=2.2.3",
-    "psycopg2-binary>=2.9.10",
-    "requests>=2.32.3",
-    "trafilatura>=2.0.0",
-]
+description = "Pollution tracking backend with Flask and APIs"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.13.4"
+email-validator = "^2.2.0"
+flask = "^3.1.0"
+flask-cors = "^5.0.1"
+flask-sqlalchemy = "^3.1.1"
+gunicorn = "^23.0.0"
+pandas = "^2.2.3"
+psycopg2-binary = "^2.9.10"
+requests = "^2.32.3"
+trafilatura = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
