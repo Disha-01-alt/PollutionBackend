@@ -1,0 +1,441 @@
+{
+  "cities": [
+    "Mumbai",
+    "Delhi",
+    "Bangalore",
+    "Hyderabad",
+    "Chennai",
+    "Kolkata",
+    "Pune",
+    "Ahmedabad",
+    "Jaipur",
+    "Lucknow"
+  ],
+  "pollution_types": [
+    "water",
+    "soil",
+    "plastic"
+  ],
+  "data": [
+    {
+      "city": "Mumbai",
+      "type": "water",
+      "aqi": 78.6,
+      "status": "Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 28.5,
+        "cod": 120.3,
+        "dissolved_oxygen": 4.2,
+        "ph": 7.8,
+        "total_coliform": 8500
+      }
+    },
+    {
+      "city": "Delhi",
+      "type": "water",
+      "aqi": 85.3,
+      "status": "Very Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 35.2,
+        "cod": 145.7,
+        "dissolved_oxygen": 3.5,
+        "ph": 7.6,
+        "total_coliform": 9200
+      }
+    },
+    {
+      "city": "Bangalore",
+      "type": "water",
+      "aqi": 62.1,
+      "status": "Moderate", 
+      "year": 2023,
+      "metrics": {
+        "bod": 18.7,
+        "cod": 95.4,
+        "dissolved_oxygen": 5.1,
+        "ph": 7.2,
+        "total_coliform": 6800
+      }
+    },
+    {
+      "city": "Hyderabad",
+      "type": "water",
+      "aqi": 68.4,
+      "status": "Moderate",
+      "year": 2023,
+      "metrics": {
+        "bod": 22.3,
+        "cod": 108.2,
+        "dissolved_oxygen": 4.7,
+        "ph": 7.5,
+        "total_coliform": 7500
+      }
+    },
+    {
+      "city": "Chennai",
+      "type": "water",
+      "aqi": 72.8,
+      "status": "Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 25.6,
+        "cod": 115.9,
+        "dissolved_oxygen": 4.3,
+        "ph": 7.7,
+        "total_coliform": 8000
+      }
+    },
+    {
+      "city": "Kolkata",
+      "type": "water",
+      "aqi": 80.2,
+      "status": "Very Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 30.1,
+        "cod": 128.5,
+        "dissolved_oxygen": 3.8,
+        "ph": 7.4,
+        "total_coliform": 8900
+      }
+    },
+    {
+      "city": "Pune",
+      "type": "water",
+      "aqi": 64.5,
+      "status": "Moderate",
+      "year": 2023,
+      "metrics": {
+        "bod": 20.4,
+        "cod": 98.7,
+        "dissolved_oxygen": 4.9,
+        "ph": 7.3,
+        "total_coliform": 7000
+      }
+    },
+    {
+      "city": "Ahmedabad",
+      "type": "water",
+      "aqi": 75.7,
+      "status": "Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 26.8,
+        "cod": 118.6,
+        "dissolved_oxygen": 4.1,
+        "ph": 7.5,
+        "total_coliform": 8300
+      }
+    },
+    {
+      "city": "Jaipur",
+      "type": "water",
+      "aqi": 69.8,
+      "status": "Moderate",
+      "year": 2023,
+      "metrics": {
+        "bod": 23.5,
+        "cod": 110.4,
+        "dissolved_oxygen": 4.6,
+        "ph": 7.6,
+        "total_coliform": 7700
+      }
+    },
+    {
+      "city": "Lucknow",
+      "type": "water",
+      "aqi": 76.3,
+      "status": "Poor",
+      "year": 2023,
+      "metrics": {
+        "bod": 27.2,
+        "cod": 121.8,
+        "dissolved_oxygen": 4.0,
+        "ph": 7.7,
+        "total_coliform": 8600
+      }
+    },
+    {
+      "city": "Mumbai",
+      "type": "soil",
+      "contamination_level": 72.4,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.2,
+        "nitrogen": 320.5,
+        "phosphorus": 38.6,
+        "potassium": 280.3,
+        "heavy_metals": 98.7
+      }
+    },
+    {
+      "city": "Delhi",
+      "type": "soil",
+      "contamination_level": 85.6,
+      "status": "Very High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.8,
+        "nitrogen": 290.1,
+        "phosphorus": 42.7,
+        "potassium": 260.8,
+        "heavy_metals": 120.5
+      }
+    },
+    {
+      "city": "Bangalore",
+      "type": "soil",
+      "contamination_level": 58.3,
+      "status": "Moderate",
+      "year": 2023,
+      "metrics": {
+        "ph": 6.9,
+        "nitrogen": 350.8,
+        "phosphorus": 32.4,
+        "potassium": 295.6,
+        "heavy_metals": 65.2
+      }
+    },
+    {
+      "city": "Hyderabad",
+      "type": "soil",
+      "contamination_level": 64.7,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.1,
+        "nitrogen": 330.4,
+        "phosphorus": 35.8,
+        "potassium": 285.3,
+        "heavy_metals": 78.4
+      }
+    },
+    {
+      "city": "Chennai",
+      "type": "soil",
+      "contamination_level": 68.5,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.4,
+        "nitrogen": 310.6,
+        "phosphorus": 36.9,
+        "potassium": 270.2,
+        "heavy_metals": 82.3
+      }
+    },
+    {
+      "city": "Kolkata",
+      "type": "soil",
+      "contamination_level": 76.9,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.3,
+        "nitrogen": 300.2,
+        "phosphorus": 40.5,
+        "potassium": 265.7,
+        "heavy_metals": 105.8
+      }
+    },
+    {
+      "city": "Pune",
+      "type": "soil",
+      "contamination_level": 62.1,
+      "status": "Moderate",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.0,
+        "nitrogen": 340.8,
+        "phosphorus": 34.2,
+        "potassium": 290.4,
+        "heavy_metals": 70.6
+      }
+    },
+    {
+      "city": "Ahmedabad",
+      "type": "soil",
+      "contamination_level": 71.8,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.5,
+        "nitrogen": 315.7,
+        "phosphorus": 38.1,
+        "potassium": 275.9,
+        "heavy_metals": 90.4
+      }
+    },
+    {
+      "city": "Jaipur",
+      "type": "soil",
+      "contamination_level": 66.9,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.6,
+        "nitrogen": 280.3,
+        "phosphorus": 35.4,
+        "potassium": 250.6,
+        "heavy_metals": 85.2
+      }
+    },
+    {
+      "city": "Lucknow",
+      "type": "soil",
+      "contamination_level": 73.5,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "ph": 7.4,
+        "nitrogen": 295.8,
+        "phosphorus": 37.3,
+        "potassium": 260.1,
+        "heavy_metals": 95.7
+      }
+    },
+    {
+      "city": "Mumbai",
+      "type": "plastic",
+      "pollution_index": 78.9,
+      "status": "Very High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 680.5,
+        "recycling_rate": 32.8,
+        "mismanaged": 58.7,
+        "microplastics": 18.6,
+        "single_use": 72.3
+      }
+    },
+    {
+      "city": "Delhi",
+      "type": "plastic",
+      "pollution_index": 86.2,
+      "status": "Severe",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 750.2,
+        "recycling_rate": 28.5,
+        "mismanaged": 62.4,
+        "microplastics": 21.3,
+        "single_use": 76.8
+      }
+    },
+    {
+      "city": "Bangalore",
+      "type": "plastic",
+      "pollution_index": 65.8,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 580.7,
+        "recycling_rate": 42.3,
+        "mismanaged": 48.6,
+        "microplastics": 13.2,
+        "single_use": 65.1
+      }
+    },
+    {
+      "city": "Hyderabad",
+      "type": "plastic",
+      "pollution_index": 69.7,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 610.3,
+        "recycling_rate": 38.7,
+        "mismanaged": 52.1,
+        "microplastics": 15.8,
+        "single_use": 68.4
+      }
+    },
+    {
+      "city": "Chennai",
+      "type": "plastic",
+      "pollution_index": 74.3,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 630.8,
+        "recycling_rate": 35.2,
+        "mismanaged": 54.9,
+        "microplastics": 16.7,
+        "single_use": 70.5
+      }
+    },
+    {
+      "city": "Kolkata",
+      "type": "plastic",
+      "pollution_index": 79.5,
+      "status": "Very High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 645.6,
+        "recycling_rate": 30.9,
+        "mismanaged": 57.8,
+        "microplastics": 19.2,
+        "single_use": 73.6
+      }
+    },
+    {
+      "city": "Pune",
+      "type": "plastic",
+      "pollution_index": 67.4,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 595.1,
+        "recycling_rate": 40.6,
+        "mismanaged": 50.2,
+        "microplastics": 14.5,
+        "single_use": 66.8
+      }
+    },
+    {
+      "city": "Ahmedabad",
+      "type": "plastic",
+      "pollution_index": 75.1,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 620.4,
+        "recycling_rate": 33.5,
+        "mismanaged": 56.3,
+        "microplastics": 17.8,
+        "single_use": 71.2
+      }
+    },
+    {
+      "city": "Jaipur",
+      "type": "plastic",
+      "pollution_index": 70.6,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 550.8,
+        "recycling_rate": 36.7,
+        "mismanaged": 53.5,
+        "microplastics": 16.1,
+        "single_use": 69.3
+      }
+    },
+    {
+      "city": "Lucknow",
+      "type": "plastic",
+      "pollution_index": 73.2,
+      "status": "High",
+      "year": 2023,
+      "metrics": {
+        "waste_generation": 570.2,
+        "recycling_rate": 32.1,
+        "mismanaged": 55.7,
+        "microplastics": 17.3,
+        "single_use": 70.8
+      }
+    }
+  ]
+}
